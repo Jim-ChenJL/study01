@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom right,
+            red,
+            orange,
+            yellow,
+            green,
+            blue,
+            indigo,
+            purple);
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: "楷体";
+    letter-spacing: 0.4em;
+    color: tomato;
+}
+
+#guanfang_kaogang {
+    display: block;
+    text-align: center;
+    width: 50%;
+    padding-left: 1em;
+    margin: 0 auto;
+    border: 0.1em solid rgba(210, 118, 233, 0.641);
+    border-radius: 0.4em;
+    background-color: #fff2ce;
+    color: rgb(64, 64, 221);
+    text-decoration: none;
+}
+
+#guanfang_kaogang:hover {
+    font-style: italic;
+    text-decoration: ;
+    color: rgb(20, 183, 20);
+}
+
+#guanfang_kaogang:active {
+    color: rgb(171, 221, 95);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: rgb(0, 183, 255);
+    text-align: center;
+}
+
+h5 {
+    color: rgb(0, 224, 135);
+}
+
+p {
+    font-style: italic;
+    text-decoration: underline dashed 0.12em rgb(173, 204, 255);
+}
+
+article {
+    display: block;
+    border: 20px dashed rgb(0, 161, 161);
+    border-radius: 4em;
+    background-color: #d5f5b4;
+    padding: 15px 30px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 2em;
+}
